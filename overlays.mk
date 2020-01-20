@@ -8,7 +8,8 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/overlay/common
 PRODUCT_PACKAGES += \
     PrimaryColorBlackOverlay \
     PrimaryColorOceanOverlay \
-    PrimaryColorNatureOverlay
+    PrimaryColorNatureOverlay \
+    PrimaryColorCharcoalBlackOverlay
 
 # Prebuilts
 $(call inherit-product-if-exists, vendor/prebuilts/packages.mk)
