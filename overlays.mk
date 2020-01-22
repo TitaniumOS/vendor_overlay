@@ -9,7 +9,8 @@ PRODUCT_PACKAGES += \
     PrimaryColorBlackOverlay \
     PrimaryColorOceanOverlay \
     PrimaryColorNatureOverlay \
-    PrimaryColorCharcoalBlackOverlay
+    PrimaryColorCharcoalBlackOverlay \
+    PrimaryColorLeadBlackOverlay
 
 # Prebuilts
 $(call inherit-product-if-exists, vendor/prebuilts/packages.mk)
